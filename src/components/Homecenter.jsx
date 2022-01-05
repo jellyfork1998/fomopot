@@ -1,11 +1,28 @@
 import React, {useState} from "react";
 import "../css/homepagecss.css";
+import copy from "copy-to-clipboard"; 
 import gifimg from "../img/Fomopot_Stickers.gif";
 
 
 
 function Homecenter(props) {
-  const [copytxt, setCopytxt]=useState("copy")
+  
+    const [copyText, setCopyText] = useState("Copy");
+  
+    // const handleCopyText = () => {
+    //    setCopyText("0x000000000000000000");
+    // } 
+    
+    const copyToClipboard = () => {
+       copy("0x000000000000000000");
+       setCopyText("Copied");
+       setTimeout(()=>{
+        setCopyText("Copy");
+
+       },1000)
+       
+      // alert(`You have copied 0x000000000000000000`);
+    }
 
   return (
     <div className="container-fluid text-center">
@@ -36,32 +53,24 @@ function Homecenter(props) {
           </div>
 
           <div className="col-xl-2 ">
-            <a type="button"
-
-                onClick={()=>{
-                navigator.clipboard.writeText("0x000000000000000000");
-                setCopytxt("Copied");
-                setTimeout(()=>{
-                  setCopytxt("Copy");
-                },1000)
-               
-              }}
-           
-             
+            <button
+              id="copy"
+              className="marg"
               style={{
                 backgroundColor: "#F9BF0E",
-                width: "100%",
-                marginTop: "auto",
+                width: "auto",
+                
                 marginBottom: "auto",
                 textDecoration: "none", fontSize: "1.5em",
                 borderRadius:"10px",
                 color:"white"
                 
               }}
+              onClick={copyToClipboard }
              
             >
-              {copytxt}
-            </a>
+              {copyText}
+            </button>
           </div>
         </div>
 

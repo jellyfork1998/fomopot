@@ -4,6 +4,10 @@ body{
   background-color: #F4F5F6;
 }
 
+
+
+
+
 .active.fade-right {
   animation: fade-right 1s ease-in;
   opacity: 1;

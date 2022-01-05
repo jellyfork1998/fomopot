@@ -24,6 +24,10 @@
    
   }
 
+  .marg {
+    margin-top: 50px;
+  }
+
  
  }
 
@@ -51,6 +55,11 @@
    left:1400px;
    top:100%;
   }
+
+  .marg {
+    margin-top: 50px;
+  } 
+
  }
 
 /* // Medium devices (tablets, 768px and up) */
@@ -75,6 +84,10 @@
    top:60%;
    width:50%;
   }
+  
+  .marg {
+    margin-top: 50px;
+  } 
    
  }
 
