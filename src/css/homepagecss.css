@@ -1,0 +1,157 @@
+
+@media (min-width: 360px)  { 
+ 
+  .homecen{
+    width:275px;
+    margin: auto;
+    
+    margin-top: 80px;
+    margin-bottom: 50px;
+    height:1000px;
+  }
+  .fomosize {
+    margin-top: 60%;
+    width: 90%;
+    margin-bottom: 50px;
+    z-index: 999;
+}
+  
+  .fomosticker {
+   position: absolute;
+   width: 75%;
+   left:12%;
+    top:130%;
+   
+  }
+
+ 
+ }
+
+
+
+  /* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+ 
+  .homecen{
+    width:500px;
+    margin: auto;
+    padding-bottom: 200px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+  .fomosize {
+    margin-top: 20%;
+    width: 60%;
+    margin-bottom: 50px;
+}
+  
+  .fomosticker {
+   position: absolute;
+  
+   left:1400px;
+   top:100%;
+  }
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+   
+  .homecen{
+    margin: auto;
+    padding-bottom: 200px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .fomosize {
+    margin-top: 33%;
+    width: 60%;
+    margin-bottom: 20px;
+  }
+  
+  .fomosticker {
+   position: absolute;
+   left:55%;
+   top:60%;
+   width:50%;
+  }
+   
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+  .homecen{
+    margin: auto;
+    padding-bottom: 200px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .fomosize {
+    margin-top: 40%;
+    width: 60%;
+    margin-bottom: 20px;
+  }
+  
+  .fomosticker {
+   position: absolute;
+   left:65%;
+   top:60%;
+   width:35%;
+  }
+ }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+
+
+    .homecen{
+        width:900px;
+        margin: auto;
+        padding-bottom: 200px;
+        margin-top: -60px;
+        margin-bottom: 50px;
+      }
+      .fomosize {
+        margin-top: 20%;
+        width: 45%;
+        margin-bottom: 50px;
+    }
+      
+      .fomosticker {
+       position: absolute;
+       width:25%;
+       left:75%;
+       top:50%;
+      }
+
+   
+ }
+
+ @media (min-width: 1400px) { 
+
+
+
+  .homecen{
+      width:900px;
+      margin: auto;
+      padding-bottom: 200px;
+      margin-top: -60px;
+      margin-bottom: 50px;
+    }
+    .fomosize {
+      margin-top: 20%;
+      width: 45%;
+      margin-bottom: 50px;
+  }
+    
+    .fomosticker {
+     position: absolute;
+     width:25%;
+     left:75%;
+     top:40%;
+    }
+
+ 
+}

@@ -1,0 +1,408 @@
+
+body{
+  font-family: poppins,sans-serif;
+  background-color: #F4F5F6;
+}
+
+.active.fade-right {
+  animation: fade-right 1s ease-in;
+  opacity: 1;
+}
+
+.active.fade-left {
+  animation: fade-left 1s ease-in;
+
+  opacity: 1;
+}
+
+@keyframes fade-left {
+  0% {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fade-right {
+  0% {
+    transform: translateX(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+
+
+@media (min-width: 360px) { 
+  .homesec {
+    background-image: url("../img/m1.png");
+      /* Center and scale the image nicely */
+      background-position:center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin-top: -25%;
+      height: 170vh;
+   }
+
+   .homesec-yt{
+    
+    position:absolute;
+    top:8%;
+    left:0;
+    width:100%;
+  }
+
+  .homesec-yb{
+  
+    position:absolute;
+    bottom:-90%;
+    right:0;
+    width:100%;
+  }
+
+
+   .howtobuysec {
+    background-color: #D6D7D8;
+    position: relative;
+    height: 150vh;
+   
+  }
+
+  .tokensec {
+    background-image: url("../img/withoutdot.jpg");
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 75vh;
+
+}
+.roadmapsec {
+  margin-top: 5px;
+  background-image: url("../img/roadmapmob.png");
+  position: relative;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+  background-size:contain;
+  height: 136vh;
+  display: block;
+  }
+
+  .kfsec {
+
+    background-color: #D6D7D8;
+    position: relative;
+    height: 110vh;
+    /* background-image: url("../img/withoutdot.jpg");
+   position: relative;
+   background-repeat: no-repeat;
+   background-size: cover;
+    */
+  }
+}
+
+@media (min-width: 576px) { 
+  .homesec {
+    background-image: url("../img/bb.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: auto;
+      height: 143vh;
+   }
+
+   .howtobuysec {
+    background-color: #D6D7D8;
+    position: relative;
+    height: 120vh;
+    top:0px;
+    
+  }
+  .tokensec {
+    background-image: url("../img/withoutdot.jpg");
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.kfsec {
+
+  background-color: #D6D7D8;
+  position: relative;
+  height: 170vh;
+  /* background-image: url("../img/withoutdot.jpg");
+ position: relative;
+ background-repeat: no-repeat;
+ background-size: cover;
+  */
+}
+}
+
+@media (min-width: 768px) { 
+ 
+
+  .homesec {
+    width:100%;
+    background-image: url("../img/bb.png");
+      background-position:center;
+      background-repeat: no-repeat;
+      background-size: cover;
+     margin-top: 15px;
+     
+      height: 115vh;
+  }
+
+  .homesec-yt{
+    
+    position:absolute;
+    top:0;
+    left:0;
+    width:90%;
+  }
+
+  .homesec-yb{
+  
+    position:absolute;
+    bottom:0;
+    right:0;
+    width:1%;
+  }
+
+  .howtobuysec {
+    background-color: #D6D7D8;
+    position: relative;
+    height: 100vh;
+    top:0px;
+    margin-bottom: 10%;
+  }
+
+
+  .tokensec {
+    background-image: url("../img/withoutdot.jpg");
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+.roadmapsec {
+  margin-top: 5px;
+  background-image: url("../img/roadmapmob.png");
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center;
+  background-color: #DCDDDE;
+  height: 230vh;
+  }
+
+.kfsec {
+  background-color: #D6D7D8;
+  position: relative;
+  font-size: x-large;
+  height: 100vh;
+  /* background-image: url("../img/withoutdot.jpg");
+ position: relative;
+ background-repeat: no-repeat;
+ background-size: cover;
+ height: 100vh; */
+}
+}
+
+@media (min-width: 992px) { 
+  .homesec {
+    width:100%;
+    background-image: url("../img/bb.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: auto;
+      height: 140vh;
+   }
+  .tokensec {
+     background-image: url("../img/withoutdot.jpg");
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+.howtobuysec {
+  background-color: #D6D7D8;
+  position: relative;
+  height: 110vh;
+  top:0px;
+  
+}
+
+
+.roadmapsec {
+  margin-top: 5px;
+  background-image: url("../img/roadmappic.jpg");
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width:105vw;
+  margin-left: -5%;
+  height: 150vh;
+  }
+
+  .kfsec {
+    background-color: #D6D7D8;
+    position: relative;
+    height: 120vh;
+    /* background-image: url("../img/withoutdot.jpg");
+   position: relative;
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 120vh; */
+ }
+}
+
+@media (min-width: 1200px){
+
+  .homesec {
+    /* background-image: url("../img/ff.jpg"); */
+    background-image: url("../img/bb.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100vh;
+      background-color: #F4F5F6;
+    
+   }
+
+   .homesec-yt{
+    
+    position:absolute;
+    top:0;
+    left:0;
+    width:40%;
+  }
+
+  .homesec-yb{
+  
+    position:absolute;
+    bottom:0;
+    right:0;
+    width:40%;
+  }
+
+  
+  .roadmapsec {
+    margin-top: 5px;
+    background-image: url("../img/roadmappic.jpg");
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 180vh;
+    }
+
+  .tokensec {
+ 
+    background-image: url("../img/withoutdot.jpg");
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
+
+  .howtobuysec {
+    background-color: #D6D7D8;
+    position: relative;
+    height: 100vh;
+   
+  }
+
+  
+  .kfsec {
+    background-color: #D6D7D8;
+    position: relative;
+    height: 120vh;
+     /* background-image: url("../img/withoutdot.jpg");
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 110vh; */
+  }
+}
+
+@media (min-width: 1400px){
+  .homesec {
+      /* background-image: url("../img/ff.jpg"); */
+      background-image: url("../img/bb.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+      
+     }
+    
+     .homesec-yt{
+    
+      position:absolute;
+      top:0;
+      left:0;
+      width:45%;
+    }
+
+    .homesec-yb{
+    
+      position:absolute;
+      bottom:0;
+      right:0;
+      width:45%;
+    }
+
+    .roadmapsec {
+      
+      margin-top: 5px;
+      background-image: url("../img/roadmappic.jpg");
+      position: relative;
+      background-repeat: no-repeat;
+     
+      background-size: cover;
+      background-position: center;
+      height: 210vh;
+      }
+  
+    .tokensec {
+       background-image: url("../img/withoutdot.jpg");
+      position: relative;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 110vh;
+      }
+  
+    .howtobuysec {
+      background-color: #F4F5F6;
+      position: relative;
+      height: 100vh;
+      top:0px;
+     }
+  
+    
+    .kfsec {
+      background-color: #D6D7D8;
+    position: relative;
+    height: 100vh;
+      /* background-color: #F4F5F6;
+      height: 100vh; */
+      /* background-image: url("../img/withoutdot.jpg");
+      position: relative;
+      background-repeat: no-repeat;
+      background-size: auto;
+      background-position: center;
+      height: 100vh; */
+    }
+  }
