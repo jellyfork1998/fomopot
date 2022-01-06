@@ -138,6 +138,9 @@
        left:75%;
        top:50%;
       }
+      .marg {
+        margin-top: 0px;
+      }
 
    
  }
@@ -166,5 +169,8 @@
      top:40%;
     }
 
+    .marg {
+      margin-top: 0px;
+    }
  
 }
