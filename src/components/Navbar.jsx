@@ -27,18 +27,20 @@ return (
           <a className="nav-link text-white active" aria-current="page" href="#">Home</a>
         </li>
         <li className="nav-item ${nav-it}">
-          <a className="nav-link text-white" href="#howto">How To Buy</a>
+          <a className="nav-link text-white" href="#kyf">Utilities</a>
         </li>
         <li className="nav-item ${nav-it}">
           <a className="nav-link text-white" href="#tok">Tokenomics</a>
         </li>
         <li className="nav-item ${nav-it}">
+          <a className="nav-link text-white" href="#howto">How To Buy</a>
+        </li>
+        
+        <li className="nav-item ${nav-it}">
           <a className="nav-link text-white" href="#roadmap">Roadmap</a>
         </li>
        
-        <li className="nav-item ${nav-it}">
-          <a className="nav-link text-white" href="#kyf">Utilities</a>
-        </li>
+       
 
         <a  type='button' className="text-white px-3 my-2 mx-2" style={{ backgroundColor:'#F9BF0E', borderRadius:'25px',  fontSize:"1.5em", textDecoration:'none' }}>
             Buy Now
