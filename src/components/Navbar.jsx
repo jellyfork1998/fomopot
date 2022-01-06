@@ -6,11 +6,18 @@ import '../css/navbarcss.css';
 
 
 function NavbarOne(){
+
+  const chandra =()=>{
+    window.location.href="#home"
+    
+  }
 return (
+
+  
 <nav id="navid" className="navbar navbar-expand-xl navbar-light  fixed-top">
   <div className="container-fluid mx-5 mt-3">
     {/* <a className="navbar-brand ms-5 "  href="#" >Navbar</a> */}
-    <img src={fomologo} className="fomologo"></img>
+    <img src={fomologo} onClick={chandra}   className="fomologo"></img>
     <button className="navbar-toggler"style={{background:"#FAC200"}} type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon" ></span>
     </button>
@@ -30,7 +37,7 @@ return (
         </li>
        
         <li className="nav-item ${nav-it}">
-          <a className="nav-link text-white" href="#">Utilities</a>
+          <a className="nav-link text-white" href="#kyf">Utilities</a>
         </li>
 
         <a  type='button' className="text-white px-3 my-2 mx-2" style={{ backgroundColor:'#F9BF0E', borderRadius:'25px',  fontSize:"1.5em", textDecoration:'none' }}>

@@ -18,24 +18,24 @@ export default function SocialFollow() {
       >
         <FontAwesomeIcon icon={faYoutube} size="2x" />
       </a> */}
-      <a
+      {/* <a
         href="https://www.facebook.com/learnbuildteach/"
         className="facebook social"
       >
         <FontAwesomeIcon icon={faFacebook} size="2x" />
-      </a>
-      <a href="https://www.twitter.com/jamesqquick" className="twitter social">
+      </a> */}
+      <a href="http://twitter.com/FomoPotbsc" className="twitter social">
         <FontAwesomeIcon icon={faTwitter} size="2x" />
       </a>
       <a
-        href="https://www.instagram.com/learnbuildteach"
+        href="http://instagram.com/FomoPotbsc"
         className="instagram social"
       >
         <FontAwesomeIcon icon={faInstagram} size="2x" />
       </a>
 
       <a
-        href="https://www.telegram.com/learnbuildteach"
+        href="https://t.me/FomoPot"
         className="telegram social"
       >
         <FontAwesomeIcon icon={faTelegram} size="2x" />

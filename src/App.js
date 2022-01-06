@@ -19,7 +19,7 @@ function App() {
    
     <div>
      
-    <section className="homesec">
+    <section id= "home" className="homesec">
     <Navbar />
      <Homecenter 
       img={fomocaption}
@@ -31,23 +31,21 @@ We will reward all the holders through reflections in FOMO Pot tokens. Besides t
     />
     </section>
 
-    <section id="howto" className="howtobuysec">
-    <Howtobuy />
-    </section>
+      <section id="kyf" className="kfsec">
+      
+      <Knowfounder />
+      </section>
 
     <section id="tok" className="tokensec">
     <Token />
     </section>
 
-   
-    <section id="roadmap" className="roadmapsec">
-    <Roadmap />
+    <section id="howto" className="howtobuysec">
+    <Howtobuy />
     </section>
 
-    
-    <section id="kyf" className="kfsec">
-      
-    <Knowfounder />
+    <section id="roadmap" className="roadmapsec">
+    <Roadmap />
     </section>
 
    <footer>
