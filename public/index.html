@@ -23,9 +23,11 @@
    
     <div id="root"></div>
     <script>
-         if (location.protocol === 'http://fomopot.com/')
-         location.href = 'https://fomopot.com/'
-   
+       if (window.location.protocol == 'http:') {
+             
+        window.location.href = window.location.href.replace('http:', 'https:');
+ }
+     
 
       window.addEventListener("load", (event) => {
       let wid = this.innerWidth;
