@@ -23,7 +23,8 @@
    
     <div id="root"></div>
     <script>
-
+        if (location.protocol == 'http:')
+        location.href = location.href.replace(/^http:/, 'https:')
    
 
       window.addEventListener("load", (event) => {
@@ -34,8 +35,7 @@
           document.getElementById("navid").style.backgroundColor="#6A2B87";
         }
 
-        if (location.protocol == 'http:')
-        location.href = location.href.replace(/^http:/, 'https:')
+       
    
     
     });
