@@ -280,7 +280,7 @@ body{
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
-      height: 120vh;
+      height: 150vh;
      
     
    }
@@ -296,7 +296,7 @@ body{
   .homesec-yb{
   
     position:absolute;
-    bottom:0;
+    bottom:-25%;
     right:0;
     width:40%;
   }
@@ -348,7 +348,7 @@ body{
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        height: 120vh;
+        height: 115vh;
       
      }
     
