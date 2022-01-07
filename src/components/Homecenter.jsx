@@ -75,10 +75,11 @@ function Homecenter(props) {
         </div>
 
         <div className="row mt-5 ">
-          <div className="col-xl-6 mb-3 mb-sm-3">
+          <div className="col-xl-6 mb-3 mb-sm-3 ms-auto me-auto">
             <a
               type="button"
               className="text-white w-50 px-3"
+              href="http://instagram.com/FomoPotbsc"
               style={{
                 backgroundColor: "#F9BF0E",
                 fontSize: "1.5em",
@@ -86,10 +87,11 @@ function Homecenter(props) {
                 borderRadius: "20px",
               }}
             >
-              Dapp{" "}
+              {/* Dapp{" "} */}
+              Telegram
             </a>
           </div>
-          <div className="col-xl-6">
+          {/* <div className="col-xl-6">
             <a
               type="button"
               className="text-white w-50 px-3 "
@@ -102,7 +104,7 @@ function Homecenter(props) {
             >
               Chart{" "}
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
