@@ -280,8 +280,8 @@ body{
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
-      height: 100vh;
-      background-color: #F4F5F6;
+      height: 120vh;
+     
     
    }
 
@@ -324,8 +324,8 @@ body{
   .howtobuysec {
     background-color: #D6D7D8;
     position: relative;
-    height: 100vh;
-   
+    height: 120vh;
+    margin-bottom: -10px;
   }
 
   
@@ -348,7 +348,7 @@ body{
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        height: 100vh;
+        height: 120vh;
       
      }
     

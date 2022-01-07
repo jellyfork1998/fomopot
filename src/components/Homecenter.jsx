@@ -79,7 +79,7 @@ function Homecenter(props) {
             <a
               type="button"
               className="text-white w-50 px-3"
-              href="http://instagram.com/FomoPotbsc"
+              href="https://t.me/FomoPot"
               style={{
                 backgroundColor: "#F9BF0E",
                 fontSize: "1.5em",
