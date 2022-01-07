@@ -37,7 +37,7 @@ function Homecenter(props) {
         </h5>
         <img className="fomosticker mb-4" src={gifimg} />
 
-        <div className="row mt-5 align-items-center">
+        {/* <div className="row mt-5 align-items-center">
           <div className="col-xl-4">
             <h5
               className="text-white"
@@ -46,8 +46,8 @@ function Homecenter(props) {
               Contract Address
             </h5>
           </div>
-          <div className="col-xl-5">
-            <a type="button" id="contractadd" className="text-white btn btn-outline-warning ">
+          <div className="col-xl-5 ">
+            <a type="button" id="contractadd" className="text-white  btn btn-outline-warning cadd">
               0x000000000000000000
             </a>
           </div>
@@ -59,7 +59,7 @@ function Homecenter(props) {
               style={{
                 backgroundColor: "#F9BF0E",
                 width: "auto",
-                
+                marginRight:'auto',
                 marginBottom: "auto",
                 textDecoration: "none", fontSize: "1.5em",
                 borderRadius:"10px",
@@ -72,23 +72,21 @@ function Homecenter(props) {
               {copyText}
             </button>
           </div>
-        </div>
+        </div> */}
 
         <div className="row mt-5 ">
           <div className="col-xl-6 mb-3 mb-sm-3 ms-auto me-auto">
             <a
               type="button"
-              className="text-white w-50 px-3"
+              className="w-50 px-3 teleg"
               href="https://t.me/FomoPot"
               style={{
-                backgroundColor: "#F9BF0E",
-                fontSize: "1.5em",
                 textDecoration: "none",
-                borderRadius: "20px",
-              }}
+                color:"black"
+                  }}
             >
               {/* Dapp{" "} */}
-              Telegram
+              Join Telegram
             </a>
           </div>
           {/* <div className="col-xl-6">

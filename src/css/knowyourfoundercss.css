@@ -109,7 +109,7 @@
     }
 
     .rowkyf {
-      margin-top: 90px;
+      margin-top: 60px;
     }
 
 }
@@ -239,11 +239,17 @@ opacity: 0;
   }
 
 .kycard {
-  margin-top: -100px;
+  margin-top: -25px;
 }
 .card-text{
   margin-left: 80px;
   margin-right:80px;
+}
+
+
+.rowkyf {
+  margin-top: -20px;
+  margin-bottom: 20px;
 }
 
 }
@@ -291,7 +297,7 @@ opacity: 0;
 }
 
 .rowkyf {
-  margin-top: 40px;
+  margin-top: 35px;
 }
 
 }

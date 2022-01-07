@@ -51,7 +51,7 @@ body{
       background-repeat: no-repeat;
       background-size: cover;
       margin-top: -25%;
-      height: 170vh;
+      height: 150vh;
    }
 
    .homesec-yt{
@@ -65,7 +65,7 @@ body{
   .homesec-yb{
   
     position:absolute;
-    bottom:-90%;
+    bottom:-50%;
     right:0;
     width:100%;
   }
@@ -280,7 +280,7 @@ body{
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
-      height: 150vh;
+      height: 130vh;
      
     
    }
@@ -296,7 +296,7 @@ body{
   .homesec-yb{
   
     position:absolute;
-    bottom:-30%;
+    bottom:-25%;
     right:0;
     width:40%;
   }
@@ -333,7 +333,7 @@ body{
   .kfsec {
     background-color: #D6D7D8;
     position: relative;
-    height: 120vh;
+    height: 100vh;
      /* background-image: url("../img/withoutdot.jpg");
     position: relative;
     background-repeat: no-repeat;
@@ -349,7 +349,7 @@ body{
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        height: 115vh;
+        height: 105vh;
       
      }
     
@@ -385,6 +385,7 @@ body{
        background-image: url("../img/withoutdot.jpg");
       position: relative;
       background-repeat: no-repeat;
+      
       background-size: cover;
       height: 110vh;
       }

@@ -20,7 +20,7 @@
    position: absolute;
    width: 75%;
    left:12%;
-    top:130%;
+    top:100%;
    
   }
 
@@ -28,6 +28,12 @@
     margin-top: 50px;
   }
 
+  .teleg {
+    background-color: #F9BF0E;
+    font-size: 0.9rem;
+    border-radius:  20px;
+    color:black,
+  }
  
  }
 
@@ -142,6 +148,17 @@
         margin-top: 0px;
       }
 
+      .cadd {
+        text-align: center;
+        padding-left: 50%;
+        
+      }
+      .teleg {
+        background-color: #F9BF0E;
+        font-size: 1.5rem;
+        border-radius:  20px;
+        color:black,
+      }
    
  }
 
@@ -173,4 +190,10 @@
       margin-top: 0px;
     }
  
+    .teleg {
+      background-color: #F9BF0E;
+      font-size: 1.5rem;
+      border-radius:  20px;
+      color:black,
+    }
 }
