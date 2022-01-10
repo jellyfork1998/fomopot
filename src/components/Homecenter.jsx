@@ -32,7 +32,7 @@ function Homecenter(props) {
 
         <img className="fomosize" src={props.img} />
 
-        <h5 className="text-white" style={{ fontSize: "1em" }}>
+        <h5 className="text-white" style={{ fontSize: "1.6em" }}>
           {props.txt}
         </h5>
         <img className="fomosticker mb-4" src={gifimg} />
@@ -89,6 +89,15 @@ function Homecenter(props) {
               Join Telegram
             </a>
           </div>
+
+          <div className="col-xl-12 mb-3 mb-sm-3 ms-auto me-auto ">
+          {/* <a href="https://www.certik.com/projects/fomopot">
+        <img   className="certimg" src={props.certic} style={{paddingRight:"100px"}} alt="An image"/>
+      </a> */}
+          
+           
+          </div>
+
           {/* <div className="col-xl-6">
             <a
               type="button"
