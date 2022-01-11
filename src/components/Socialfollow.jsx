@@ -40,7 +40,7 @@ export default function SocialFollow() {
       >
         <FontAwesomeIcon icon={faTelegram} size="2x" />
       </a>
-      <h3>Copy Rights @2021</h3>
+      <h3>Copy Rights @2022</h3>
     </div>
   );
 }
