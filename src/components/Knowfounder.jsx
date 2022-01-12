@@ -22,7 +22,7 @@ function Knowfounder(){
       
     {/* <img className="image-cropper" src={founder} alt="Photo of sunset"/> */}
         {/* <h4 className="item-card-title mt-3 mb-3">Ayush-Founder/CEO</h4> */}
-        <p className="card-text mt-5">"The utilities that have been planned include our own staking platform, Stakable NFT's and NFT minting website, our own launchpad, Play to earn game
+        <p className="card-text mt-5">"The utilities that have been planned include our own staking platform, Stakeable NFT's and NFT minting website, our own launchpad, Play to earn game
 and NFT Marketplace. We will build more utilities in the near future as we grow but it will not deviate us from our main utility which is 'Community satisfaction and profit making utility' "</p> 
   </div>
     </div>
