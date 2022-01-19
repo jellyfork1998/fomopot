@@ -25,7 +25,8 @@ function Homecenter(props) {
     }
 
   return (
-    <div className="container-fluid text-center">
+    <div  className="container-fluid text-center">
+     
       <div className="homecen text-center">
         <img className="homesec-yt" src={props.yellowtop} />
         <img className="homesec-yb" src={props.yellowbottom} />
@@ -91,9 +92,9 @@ function Homecenter(props) {
           </div>
 
           <div className="col-xl-12 mb-3 mb-sm-3 ms-auto me-auto ">
-          {/* <a href="https://www.certik.com/projects/fomopot">
-        <img   className="certimg" src={props.certic} style={{paddingRight:"100px"}} alt="An image"/>
-      </a> */}
+          <a href="https://www.certik.com/projects/fomopot">
+        <img   className="certimg" src={props.certic} style={{paddingRight:"80px"}} alt="An image"/>
+      </a>
           
            
           </div>

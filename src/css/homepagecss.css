@@ -57,6 +57,8 @@ h5{
     width:125%;
     padding-right: 100px;
   }
+
+ 
  
  }
 
@@ -110,7 +112,7 @@ h5{
   .fomosticker {
    position: absolute;
    left:55%;
-   top:60%;
+   top:50%;
    width:50%;
   }
   
@@ -144,6 +146,9 @@ h5{
    left:65%;
    top:60%;
    width:35%;
+  }
+  #footerpush {
+    top:200px;
   }
  }
 
@@ -190,6 +195,9 @@ h5{
         width:auto;
        padding-right: 0px;
       }
+      #footerpush {
+        top:800px;
+      }
    
  }
 
@@ -233,4 +241,7 @@ h5{
      padding-right: 0px;
     }
    
+    #footerpush {
+      top:100px;
+    }
 }

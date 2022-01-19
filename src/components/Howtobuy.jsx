@@ -4,17 +4,22 @@ import howtobuy from "../img/how2buy.png";
 
 function Howtobuy() {
   return (
-    <div className="container-fluid" style={{marginLeft:"auto",marginRight:"auto"}}>
-      <img className="howtobuyposition reveal fade-right" src={howtobuy} />
+    <div className="container-fluid py-5" style={{marginLeft:"auto",marginRight:"auto"}}>
+    <div>
+    <img className="howtobuyposition reveal fade-right" src={howtobuy} />
+    </div>
+      
 
-      <div style={{ marginTop: "25px" }}>
+      <div className="my-5 " >
         <div
-          className="card  ms-auto me-auto text-center py-2 mt-3 text-white card-info reveal fade-left"
+          className="card item-card card-block card-info reveal fade-left  ms-auto me-auto text-center py-5 text-white "
           style={{
             borderRadius: "30px",
-            backgroundColor: "#693594",
-            marginTop: "150px",
+            backgroundImage: "linear-gradient(180deg, #667eea, #764ba2)",
+            //backgroundColor: "#693594",
             borderColor: "#FADC51",
+            // backgroundColor:"black",
+            // borderColor:"white",
             borderWidth: "5px",
           }}
         >
@@ -27,25 +32,13 @@ function Howtobuy() {
               Iphone or Android
             </p>
             <h6>STEP 2</h6>
-            <p>
-              Install Trust Wallet or Metamask Open your Google Chrome or
-              Firefox and visit Metamask.io. Download the Metamask Chrome
-              extention and setup a wallet. On mobile? Get Metamask's app for
-              Iphone or Android
+            <p>Purchase BNB on an Exchange. Transfer BNB to your MetaMask or TrustWallet.
             </p>
             <h6>STEP 3</h6>
-            <p>
-              Install Trust Wallet or Metamask Open your Google Chrome or
-              Firefox and visit Metamask.io. Download the Metamask Chrome
-              extention and setup a wallet. On mobile? Get Metamask's app for
-              Iphone or Android
+            <p>Add Binance Smart Chain to Metamask.Follow the instructions of this link.
             </p>
             <h6>STEP 4</h6>
-            <p>
-              Install Trust Wallet or Metamask Open your Google Chrome or
-              Firefox and visit Metamask.io. Download the Metamask Chrome
-              extention and setup a wallet. On mobile? Get Metamask's app for
-              Iphone or Android
+            <p>Swap on PancakeSwap.Visit PancakeSwap and click connect wallet.Copy the Son of Doge contract address below and set your slippage.
             </p>
           </div>
         </div>

@@ -99,7 +99,7 @@
     margin-right: auto;
     align-items: center;
     display: block;
-    top:-30px;
+    /* top:-30px; */
     opacity: 0;
     }
 
@@ -136,7 +136,7 @@
   margin-right: auto;
   align-items: center;
   display: block;
-  top:-30px;
+  /* top:-30px; */
   opacity: 0;
   }
 
@@ -169,7 +169,7 @@
   margin-right: auto;
   align-items: center;
   display: block;
-  top:-60px;
+  /* top:-60px; */
   opacity: 0;      
     }
     .card-text{
@@ -202,7 +202,7 @@ margin-left: auto;
 margin-right: auto;
 align-items: center;
 display: block;
-top:-60px;
+/* top:-60px; */
 opacity: 0;      
   }
   .card-text{
@@ -234,13 +234,13 @@ margin-left: auto;
 margin-right: auto;
 align-items: center;
 display: block;
-top:-100px;
+/* top:-100px; */
 opacity: 0;     
   }
 
-.kycard {
+/* .kycard {
   margin-top: -25px;
-}
+} */
 .card-text{
   margin-left: 80px;
   margin-right:80px;
@@ -279,7 +279,8 @@ margin-left: auto;
 margin-right: auto;
 align-items: center;
 display: block;
-top:-100px;
+
+/* top:-100px; */
 opacity: 0;
       
   }
@@ -288,9 +289,9 @@ opacity: 0;
   }
 
   
-.kycard {
+/* .kycard {
  margin-top: -100px;
-}
+} */
 .card-text{
  margin-left: 80px;
  margin-right:80px;

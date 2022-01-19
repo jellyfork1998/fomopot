@@ -12,7 +12,7 @@
     margin-right: auto;
     align-items: center;
     display: block;
-    top:-30px;
+    /* top:-30px; */
     opacity: 0;
    }
 
@@ -35,7 +35,7 @@
     position: relative;
     align-items: center;
     display: block;
-    top:-30px;
+    /* top:-30px; */
     opacity: 0;
    }
 
@@ -59,7 +59,7 @@
     margin-right: auto;
     align-items: center;
     display: block;
-    top:-70px;
+    /* top:-70px; */
     opacity: 0;
    }
 
@@ -85,7 +85,7 @@
     margin-right: auto;
     align-items: center;
     display: block;
-    top:-70px;
+    /* top:-70px; */
     opacity: 0;
    }
 
@@ -109,7 +109,7 @@
         margin-right: auto;
         align-items: center;
         display: block;
-        top:-75px;
+        /* top:-75px; */
         opacity: 0;
        }
 
@@ -136,7 +136,7 @@
       margin-right: auto;
       align-items: center;
       display: block;
-      top:-75px;
+      /* top:-75px; */
       opacity: 0;
      }
 

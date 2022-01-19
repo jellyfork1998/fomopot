@@ -1,0 +1,36 @@
+@media (min-width: 360px) { 
+    #footerpush {
+        top:500px;
+      }
+    
+}
+@media (min-width: 576px) { 
+    #footerpush {
+        top:500px;
+      }
+  
+    }
+
+
+@media (min-width: 768px) { 
+    #footerpush {
+        top:-400px;
+      }
+}
+@media (min-width: 992px) { 
+    #footerpush {
+        top:100px;
+      }
+   
+}
+@media (min-width: 1200px) { 
+    #footerpush {
+        top:575px;
+      }
+  
+}
+@media (min-width: 1400px) { 
+    #footerpush {
+        top:150px;
+      }
+}

@@ -1,8 +1,15 @@
 
 body{
   font-family: poppins,sans-serif;
-  background-color: #F4F5F6;
+  background-color: #693594;
 }
+
+
+
+
+
+
+
 
 
 
@@ -43,15 +50,20 @@ body{
 
 
 
+   
+
+
+
 @media (min-width: 360px) { 
   .homesec {
+    /* background-image: url("../img/fomobackground.jpg"); */
     background-image: url("../img/m1.png");
       /* Center and scale the image nicely */
       background-position:center;
       background-repeat: no-repeat;
       background-size: cover;
-      margin-top: -25%;
-      height: 150vh;
+      
+      /* height: 150vh; */
    }
 
    .homesec-yt{
@@ -72,14 +84,16 @@ body{
 
 
    .howtobuysec {
-    background-color: #D6D7D8;
+    /* background-color: #693594; */
+    background-color: #693594;
     position: relative;
-    height: 150vh;
+    /* height: 150vh; */
    
   }
 
   .tokensec {
-    background-image: url("../img/withoutdot.jpg");
+    /* background-image: url("../img/withoutdot.jpg"); */
+    background-color: #693594;
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
@@ -88,28 +102,38 @@ body{
 }
 .roadmapsec {
   margin-top: 5px;
-  background-image: url("../img/roadmapmob.png");
+  /* background-image: url("../img/roadmapmob.png"); */
+  background-color: #693594;
   position: relative;
   background-repeat: no-repeat;
   margin-left: auto;
   margin-right: auto;
   width: fit-content;
   background-size:contain;
-  height: 136vh;
+  /* height: 136vh; */
   display: block;
   }
 
   .kfsec {
-
-    background-color: #D6D7D8;
+    background-color: #693594;
+    /* background-color: #693594; */
     position: relative;
-    height: 95vh;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    /* height: 95vh; */
     /* background-image: url("../img/withoutdot.jpg");
    position: relative;
    background-repeat: no-repeat;
    background-size: cover;
     */
   }
+
+  #Roadmap {
+    height: 150%;
+    background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+    overflow: hidden;
+  }
+
 }
 
 @media (min-width: 576px) { 
@@ -118,34 +142,41 @@ body{
       background-position: center;
       background-repeat: no-repeat;
       background-size: auto;
-      height: 143vh;
+      /* height: 143vh; */
    }
 
    .howtobuysec {
-    background-color: #D6D7D8;
+    background-color: #693594;
+    /* background-color: #693594; */
     position: relative;
-    height: 120vh;
+    /* height: 120vh; */
     top:0px;
     
   }
   .tokensec {
-    background-image: url("../img/withoutdot.jpg");
+    background-color: #693594;
+    /* background-image: url("../img/withoutdot.jpg"); */
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 .kfsec {
-
-  background-color: #D6D7D8;
+  background-color: #693594;
+  /* background-color: #693594; */
   position: relative;
-  height: 170vh;
+  /* height: 170vh; */
   /* background-image: url("../img/withoutdot.jpg");
  position: relative;
  background-repeat: no-repeat;
  background-size: cover;
   */
+}
+#Roadmap {
+  height: auto;
+  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+  overflow: hidden;
 }
 }
 
@@ -158,9 +189,9 @@ body{
       background-position:center;
       background-repeat: no-repeat;
       background-size: cover;
-     margin-top: 15px;
+     /* margin-top: 15px; */
      
-      height: 115vh;
+      /* height: 115vh; */
   }
 
   .homesec-yt{
@@ -180,16 +211,18 @@ body{
   }
 
   .howtobuysec {
-    background-color: #D6D7D8;
+    background-color: #693594;
+    /* background-color: #693594; */
     position: relative;
-    height: 100vh;
+    /* height: 100vh; */
     top:0px;
-    margin-bottom: 10%;
+    /* margin-bottom: 10%; */
   }
 
 
   .tokensec {
-    background-image: url("../img/withoutdot.jpg");
+    background-color: #693594;
+    /* background-image: url("../img/withoutdot.jpg"); */
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
@@ -199,26 +232,34 @@ body{
 
 .roadmapsec {
   margin-top: 5px;
-  background-image: url("../img/roadmapmob.png");
+  /* background-image: url("../img/roadmapmob.png"); */
+  background-color: #693594;
   position: relative;
   background-repeat: no-repeat;
   background-size: cover;
   background-position:center;
-  background-color: #DCDDDE;
-  height: 230vh;
+  /* background-color: #DCDDDE; */
+  /* height: 220vh; */
   }
 
 .kfsec {
-  background-color: #D6D7D8;
+  background-color: #693594;
+  /* background-color: #693594; */
   position: relative;
   font-size: x-large;
-  height: 100vh;
+  /* height: 100vh; */
   /* background-image: url("../img/withoutdot.jpg");
  position: relative;
  background-repeat: no-repeat;
  background-size: cover;
  height: 100vh; */
 }
+#Roadmap {
+  height: 75%;
+  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+  overflow: hidden;
+}
+
 }
 
 @media (min-width: 992px) { 
@@ -228,22 +269,24 @@ body{
       background-position: center;
       background-repeat: no-repeat;
       background-size: auto;
-      height: 140vh;
+      /* height: 140vh; */
    }
   .tokensec {
-     background-image: url("../img/withoutdot.jpg");
+    background-color: #693594;
+     /* background-image: url("../img/withoutdot.jpg"); */
     position: relative;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    /* height: 100vh; */
 
 }
 
 .howtobuysec {
-  background-color: #D6D7D8;
+  background-color: #693594;
+  /* background-color: #693594; */
   position: relative;
-  height: 110vh;
+  /* height: 110vh; */
   top:0px;
   
 }
@@ -251,7 +294,8 @@ body{
 
 .roadmapsec {
   margin-top: 5px;
-  background-image: url("../img/roadmappic.png");
+  /* background-image: url("../img/roadmappic.png"); */
+  background-color: #693594;
   position: relative;
   background-repeat: no-repeat;
   background-size: cover;
@@ -261,26 +305,32 @@ body{
   }
 
   .kfsec {
-    background-color: #D6D7D8;
+    background-color: #693594;
+    /* background-color: #693594; */
     position: relative;
-    height: 120vh;
+    /* height: 120vh; */
     /* background-image: url("../img/withoutdot.jpg");
    position: relative;
    background-repeat: no-repeat;
    background-size: cover;
    height: 120vh; */
  }
+ #Roadmap {
+  height: auto;
+  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+  overflow: hidden;
+}
 }
 
 @media (min-width: 1200px){
 
   .homesec {
     /* background-image: url("../img/ff.jpg"); */
-    background-image: url("../img/bb.png");
+      background-image: url("../img/bb.png");
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
-      height: 130vh;
+     height: 130vh; 
      
     
    }
@@ -304,17 +354,19 @@ body{
   
   .roadmapsec {
     margin-top: 5px;
-    background-image: url("../img/roadmappic.png");
+    /* background-image: url("../img/roadmappic.png"); */
+    background-color: #693594;
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 180vh;
+    /* height: 180vh; */
+    height:auto;
     }
 
   .tokensec {
- 
-    background-image: url("../img/withoutdot.jpg");
+    background-color: #693594;
+    /* background-image: url("../img/withoutdot.jpg"); */
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
@@ -322,35 +374,56 @@ body{
   }
 
   .howtobuysec {
-    background-color: #D6D7D8;
+    background-color: #693594;
+    /* background-color: #693594; */
     position: relative;
-  
-    height: 140vh;
-    margin-bottom: -10px;
+    height:auto;
+    /* height: 140vh; */
+    /* margin-bottom: -10px; */
   }
 
   
   .kfsec {
-    background-color: #D6D7D8;
+    /* background: transparent; */
+    background-color: #693594;
+    /* background-color: #693594; */
     position: relative;
-    height: 100vh;
+    /* height: 100vh; */
      /* background-image: url("../img/withoutdot.jpg");
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
     height: 110vh; */
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  #Roadmap {
+    height: auto;
+    background: transparent;
+    /* background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%); */
+    overflow: hidden;
   }
 }
 
 @media (min-width: 1400px){
   .homesec {
+    /* background-image: url("../img/fomobackground.jpg"); */
+    background-image: url("../img/bb.png");
+    /* width: 100%; */
+     height: 110vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    /* background-attachment: fixed; */
+
+
       /* background-image: url("../img/ff.jpg"); */
-      background-image: url("../img/bb.png");
+      /* background-image: url("../img/bb.png");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        height: 120vh;
-      
+        /* height: 120vh; */
+     
      }
     
      .homesec-yt{
@@ -364,7 +437,7 @@ body{
     .homesec-yb{
     
       position:absolute;
-      bottom:0;
+      bottom:-5%;
       right:0;
       width:45%;
     }
@@ -372,37 +445,49 @@ body{
     .roadmapsec {
       
       margin-top: 5px;
-      background-image: url("../img/roadmappic.png");
+      /* background-image: url("../img/roadmappic.png"); */
+      /* background-color: #5D237F; */
+      background-color:  #693594;
+      /* background: transparent; */
       position: relative;
       background-repeat: no-repeat;
      
       background-size: cover;
       background-position: center;
-      height: 210vh;
+      /* height: 210vh; */
+      height:auto;
       }
   
     .tokensec {
-       background-image: url("../img/withoutdot.jpg");
-      position: relative;
-      background-repeat: no-repeat;
+       /* background-image: url("../img/withoutdot.jpg");  */
+       background-color:  #693594;
       
-      background-size: cover;
-      height: 110vh;
+      position: relative;
+      /* background-repeat: no-repeat;
+      
+      background-size: cover; */
+      height: 100vh;
       }
   
     .howtobuysec {
-      background-color: #F4F5F6;
+      background-color:  #693594;
+     
+      /* background-color: #F4F5F6; */
       position: relative;
-      max-width: 1920px;
-      height: 120vh;
+      /* max-width: 1920px; */
+      /* height: 120vh; */
+      height:auto;
       top:0px;
      }
   
     
     .kfsec {
-      background-color: #D6D7D8;
+     
+    /* background: transparent; */
+    background-color:  #693594;
     position: relative;
-    height: 110vh;
+    /* height: 100vh; */
+    height:auto;
       /* background-color: #F4F5F6;
       height: 100vh; */
       /* background-image: url("../img/withoutdot.jpg");
@@ -411,5 +496,11 @@ body{
       background-size: auto;
       background-position: center;
       height: 100vh; */
+    }
+    #Roadmap {
+      height: auto;
+      background: transparent;
+      /* background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%); */
+      overflow: hidden;
     }
   }

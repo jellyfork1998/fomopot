@@ -14,16 +14,19 @@ import "./css/gencss.css";
 
 
 
+
 function App() {
 
 
 
   return (
-   
-    <div>
+   <div>
+    
      
+       
     <section id= "home" className="homesec">
     <Navbar />
+      
      <Homecenter 
       img={fomocaption}
       yellowtop={Ytimg}
@@ -31,15 +34,28 @@ function App() {
       certic={Certicimg}
       txt="FOMO Pot is a community driven token on the binance smart chain which grows and multiplies in your wallet just  by holding." 
     />
+{/* 
+<Knowfounder />
+
+<Token />
+<Howtobuy />
+<Roadmap /> */}
+
     </section>
 
-      <section id="kyf" className="kfsec">
+    
+       
+
+      <section id="kyf"  className="kfsec">
       
       <Knowfounder />
+       
       </section>
 
-    <section id="tok" className="tokensec">
+    <section id="tok" >
+    
     <Token />
+    
     </section>
 
     <section id="howto" className="howtobuysec">
@@ -47,8 +63,13 @@ function App() {
     </section>
 
     <section id="roadmap" className="roadmapsec">
+    
     <Roadmap />
+   
+     
     </section>
+  
+   
 
    <footer>
    <Ftcomp  />

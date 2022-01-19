@@ -12,7 +12,7 @@
         margin-right: auto;
         align-items: center;
         display: block;
-        top:-50px;
+        /* top:50px; */
         opacity: 0;
     }
 }
@@ -24,7 +24,7 @@
         margin-right: auto;
         align-items: center;
         display: block;
-        top:-50px;
+        /* top:50px; */
         opacity: 0;
     }
 
@@ -37,7 +37,7 @@
         margin-right: auto;
         align-items: center;
         display: block;
-        top:-75px;
+        /* top:50px; */
         opacity: 0;
     }
 }
@@ -49,7 +49,7 @@
         margin-right: auto;
         align-items: center;
         display: block;
-        top:-80px;
+        /* top:50px; */
         opacity: 0;
     }
 }
@@ -61,7 +61,7 @@
         margin-right: auto;
         align-items: center;
         display: block;
-        top:-120px;
+        /* top:50px; */
         opacity: 0;
     }
 }
@@ -73,7 +73,7 @@
         margin-right: auto;
         align-items: center;
         display: block;
-        top:-120px;
+        /* top:50px; */
         opacity: 0;
     }
 }

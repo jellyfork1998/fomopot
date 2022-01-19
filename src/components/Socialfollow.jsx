@@ -40,7 +40,8 @@ export default function SocialFollow() {
       >
         <FontAwesomeIcon icon={faTelegram} size="2x" />
       </a>
-      <h3>Copy Rights @2022</h3>
+      <p className="mt-5 text-white">FomoPot@gmail.com</p>
+      <p >© Copyright 2022 FomoPot. All Rights Reserved.</p>
     </div>
   );
 }

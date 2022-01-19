@@ -4,38 +4,47 @@
 @media (min-width: 360px) { 
     .tokenheadposition {
         position: relative;
-        top: -50px;
+        /* top: -50px; */
         width: 100%;
         opacity: 0;
     }
 
     .tobeannouncePosition {
         position: relative;
-        margin-top: 50%;
+        /* margin-top: 50%; */
         left:auto;
         right:auto;
+        margin-top:auto;
+        margin-bottom: auto;
         margin-left: auto;
         margin-right: auto;
+        
         width: 75%;
         display: block;
        
+    }
+    .cardsize {
+        width:75%;
     }
 
 }
 @media (min-width: 576px) { 
     .tokenheadposition {
         position: relative;
-        top: -100px;
+        /* top: -100px; */
         width: 100%;
         opacity: 0;
     }
-
+   
+    .cardsize {
+        width:75%;
+    }
 
 }
 @media (min-width: 768px) { 
     .tokenheadposition{
         position: relative;
-        top: -50px;
+        /* top: -50px; */
        
         width: 75%;
         margin-left: auto;
@@ -47,14 +56,19 @@
 
     .tobeannouncePosition {
         position: relative;
-        margin-top: 50%;
+        /* margin-top: 50%; */
         left:auto;
         right:auto;
+        margin-top:auto;
+        margin-bottom: auto;
         margin-left: auto;
         margin-right: auto;
         width: 75%;
         display: block;
        
+    }
+    .cardsize {
+        width:75%;
     }
 }
 
@@ -70,21 +84,26 @@
     }
     .tobeannouncePosition {
         position: relative;
-        margin-top: 10%;
+        /* margin-top: 10%; */
         left:auto;
         right:auto;
+        margin-top:auto;
+        margin-bottom: auto;
         margin-left: auto;
         margin-right: auto;
         width: 75%;
         display: block;
        
     }
+    .cardsize {
+        width:50%;
+    }
 
 }
 @media (min-width: 1200px) { 
     .tokenheadposition{
         position: relative;
-        top: -50px;
+        /* top: -50px; */
         width: 50%;
         left:auto;
         right:auto;
@@ -95,22 +114,28 @@
     }
     .tobeannouncePosition {
         position: relative;
-        margin-top: 10%;
+        /* margin-top: 10%; */
+        margin-top:90px;
         margin-bottom: auto;
         left:auto;
         right:auto;
         margin-left: auto;
         margin-right: auto;
+        padding-bottom: 100px;
         width: 50%;
         display: block;
        
+    }
+    .cardsize {
+        width:50%;
     }
 }
 
 @media (min-width: 1400px) { 
     .tokenheadposition {
         position: relative;
-        top: -150px;
+        /* top: -150px; */
+       
         width: 60%;
         left: auto;
         right: auto;
@@ -120,11 +145,15 @@
 
     .tobeannouncePosition {
         position: relative;
-        margin-top:auto;
+        margin-top:45px;
         margin-bottom: auto;
+        padding-bottom: 100px;
         left:0;
         width: 100%;
         transform: scale(60%);
+    }
+    .cardsize {
+        width:50%;
     }
 }
 
