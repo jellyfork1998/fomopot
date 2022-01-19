@@ -31,9 +31,9 @@ function Knowfounder(){
         <p className="card-text" >* Staking Platform</p>
         <p className="card-text"> * Stakeable NFT's</p>
         <p className="card-text">* NFT minting website</p>
-        <p className="card-text" >* Own LaunchPad</p>
-        <p className="card-text">* Play to earn game</p>
+        <p className="card-text" >* LaunchPad</p>
         <p className="card-text">* NFT Marketplace</p>
+        <p className="card-text">* Play to earn game</p>
 
 <p className="card-text" >"We will build more utilities in the near future as we grow but it will not deviate us from our main utility which is 
 Community satisfaction and profit making utility"</p> 

@@ -88,6 +88,7 @@ export default class Roadmap extends Component {
     <p>•	Pancakeswap listing.</p>
     <p>•	Coinmarketcap listing.</p>
     <p>•	Coingecko listing.</p>
+    <p>•	First Lottery.</p>
 
 </div>
   </VerticalTimelineElement>
@@ -123,9 +124,10 @@ export default class Roadmap extends Component {
     {/* <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4> */}
     <div style={{textAlign: this.props.someBoolean ? "center" : "left"}}>
     
-  <p>•  Play To Earn Game.</p>
+  
   <p>•  Staking Platform.</p>
   <p>•  NFT Marketplace.</p>
+  <p>•  Play To Earn Game.</p>
   
  
   </div>
