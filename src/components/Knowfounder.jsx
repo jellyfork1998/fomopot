@@ -36,7 +36,7 @@ function Knowfounder(){
         <p className="card-text">* Play to earn game</p>
 
 <p className="card-text" >"We will build more utilities in the near future as we grow but it will not deviate us from our main utility which is 
-Community satisfaction and profit making utility"</p> 
+community satisfaction and profit making utility"</p> 
   </div>
     </div>
     </div>
