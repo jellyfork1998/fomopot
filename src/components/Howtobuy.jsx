@@ -38,7 +38,7 @@ function Howtobuy() {
             <p>Add Binance Smart Chain to Metamask.Follow the instructions of this link.
             </p>
             <h6>STEP 4</h6>
-            <p>Swap on PancakeSwap.Visit PancakeSwap and click connect wallet.Copy the Son of Doge contract address below and set your slippage.
+            <p>Swap on PancakeSwap.Visit PancakeSwap and click connect wallet.Copy the FomoPot contract address below and set your slippage.
             </p>
           </div>
         </div>
