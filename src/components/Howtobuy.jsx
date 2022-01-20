@@ -38,7 +38,7 @@ function Howtobuy() {
             <p>Add Binance Smart Chain to Metamask.Follow the instructions of this link.
             </p>
             <h6>STEP 4</h6>
-            <p>Swap on PancakeSwap.Visit PancakeSwap and click connect wallet.Copy the FomoPot contract address below and set your slippage.
+            <p>Visit PancakeSwap.Finance and click connect wallet. Copy the Fomo Pot contract address below , set your slippage and swap your tokens.
             </p>
           </div>
         </div>
