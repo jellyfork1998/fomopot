@@ -28,7 +28,7 @@ const metamaskadd='https://metamask.io/'
           <div className="card-text my-5">
             <h6>STEP 1</h6>
             <p>
-              Install Trust Wallet or Metamask Open your Google Chrome or
+              Install Trust Wallet or Metamask. Open your Google Chrome or
               Firefox and visit <a style={{textDecoration:"none",color:"white"}} href={metamaskadd} target="_blank" ><span style={{backgroundColor:"#693594",borderRadius:"10px", paddingLeft:"10px",paddingRight:"10px"}}>Metamask.io.</span> </a>  Download the Metamask Chrome
               extention and setup a wallet. On mobile? Get Metamask's app for
               Iphone or Android

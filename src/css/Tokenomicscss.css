@@ -24,7 +24,7 @@
        
     }
     .cardsize {
-        width:75%;
+        width:90%;
     }
 
 }
@@ -37,7 +37,7 @@
     }
    
     .cardsize {
-        width:75%;
+        width:90%;
     }
 
 }
@@ -68,7 +68,7 @@
        
     }
     .cardsize {
-        width:75%;
+        width:95%;
     }
 }
 
@@ -96,7 +96,7 @@
        
     }
     .cardsize {
-        width:50%;
+        width:95%;
     }
 
 }
@@ -127,7 +127,7 @@
        
     }
     .cardsize {
-        width:50%;
+        width:75%;
     }
 }
 
@@ -153,7 +153,7 @@
         transform: scale(60%);
     }
     .cardsize {
-        width:50%;
+        width:75%;
     }
 }
 
