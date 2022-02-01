@@ -42,7 +42,7 @@ return (
        
        
 
-        <a  type='button' className="text-white px-3 my-2 mx-2" style={{ backgroundColor:'#F9BF0E', borderRadius:'25px',  fontSize:"1.5em", textDecoration:'none' }}>
+        <a  type='button' href='https://pancakeswap.finance/swap?outputCurrency=0x8d5cf97ff6a29e57cb5f4c9e85bbfc7934aa9073' className="text-white px-3 my-2 mx-2" style={{ backgroundColor:'#F9BF0E', borderRadius:'25px',  fontSize:"1.5em", textDecoration:'none' }}>
             Buy Now
         </a>
        

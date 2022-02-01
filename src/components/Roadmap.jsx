@@ -44,10 +44,10 @@ export default class Roadmap extends Component {
  
 
  
-    <p>•	Visualise FOMO Pot.</p>
-    <p>•	Formation of a dedicated team who believes in the long term vision.</p>
-    <p>•	Website launch.</p>
-    <p>•	Private sale.</p>
+    <p>•	Visualise FOMO Pot ✔</p>
+    <p>•	Formation of a dedicated team who believes in the long term vision ✔</p>
+    <p>•	Website launch ✔</p>
+    <p>•	Private sale ✔</p>
     
     
    
@@ -66,9 +66,11 @@ export default class Roadmap extends Component {
     {/* <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4> */}
     <div style={{textAlign: this.props.someBoolean ? "center" : "left"}}>
 
+    <p>•	Whitelisted Presale ✔</p>
+    <p>•	Intense Marketing campaign ✔</p>
     <p>•	Certik audit.</p>
-    <p>•	Intense Marketing campaign.</p>
-    <p>•	Whitelisted Presale.</p>
+    
+    
     
 
     </div>
@@ -85,7 +87,7 @@ export default class Roadmap extends Component {
     <h3 className="vertical-timeline-element-title text-black">Phase 3</h3>
     {/* <h4 className="vertical-timeline-element-subtitle">Los Angeles, CA</h4> */}
     <div style={{textAlign: this.props.someBoolean ? "center" : "left"}}>
-    <p>•	Pancakeswap listing.</p>
+    <p>•	Pancakeswap listing ✔</p>
     <p>•	Coinmarketcap listing.</p>
     <p>•	Coingecko listing.</p>
     <p>•	First Lottery.</p>

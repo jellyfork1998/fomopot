@@ -14,7 +14,7 @@ function Homecenter(props) {
     // } 
     
     const copyToClipboard = () => {
-       copy("0x000000000000000000");
+       copy("0x8d5cf97ff6a29e57cb5f4c9e85bbfc7934aa9073");
        setCopyText("Copied");
        setTimeout(()=>{
         setCopyText("Copy");
@@ -38,8 +38,8 @@ function Homecenter(props) {
         </h5>
         <img className="fomosticker mb-4" src={gifimg} />
 
-        {/* <div className="row mt-5 align-items-center">
-          <div className="col-xl-4">
+        <div className="row mt-5 align-items-center">
+          <div className="col-sm-12 col-xl-4">
             <h5
               className="text-white"
               style={{ marginTop: "auto", marginBottom: "auto" }}
@@ -47,13 +47,13 @@ function Homecenter(props) {
               Contract Address
             </h5>
           </div>
-          <div className="col-xl-5 ">
-            <a type="button" id="contractadd" className="text-white  btn btn-outline-warning cadd">
-              0x000000000000000000
+          <div className="col-sm-12 col-xl-6 text-center">
+            <a type="button" id="contractadd" className="text-white  btn btn-outline-warning  cadd">
+            0x8d5cf97ff6a29e57cb5f4c9e85bbfc7934aa9073
             </a>
           </div>
 
-          <div className="col-xl-2 ">
+          <div className="col-sm-12 col-xl-2 ">
             <button
               id="copy"
               className="marg"
@@ -73,7 +73,7 @@ function Homecenter(props) {
               {copyText}
             </button>
           </div>
-        </div> */}
+        </div>
 
         <div className="row mt-5 ">
           <div className="col-xl-6 mb-3 mb-sm-3 ms-auto me-auto">

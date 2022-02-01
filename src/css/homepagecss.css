@@ -58,7 +58,12 @@ h5{
     padding-right: 100px;
   }
 
- 
+  .cadd {
+    text-align: center;
+    padding-left: auto;
+    padding-right: auto;
+    word-break: break-all;
+  }
  
  }
 
@@ -112,7 +117,7 @@ h5{
   .fomosticker {
    position: absolute;
    left:55%;
-   top:50%;
+   top:58%;
    width:50%;
   }
   
@@ -182,7 +187,8 @@ h5{
 
       .cadd {
         text-align: center;
-        padding-left: 50%;
+        padding-left: auto;
+        padding-right: auto;
         
       }
       .teleg {

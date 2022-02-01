@@ -42,6 +42,7 @@ const metamaskadd='https://metamask.io/'
             <h6>STEP 4</h6>
             <p>Visit PancakeSwap.Finance and click connect wallet. Copy the Fomo Pot contract address below, set your slippage and swap your tokens.
             </p>
+            <p>Contract Address: 0x8d5cf97ff6a29e57cb5f4c9e85bbfc7934aa9073</p>
           </div>
         </div>
       </div>
