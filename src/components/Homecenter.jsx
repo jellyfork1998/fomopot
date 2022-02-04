@@ -6,23 +6,7 @@ import gifimg from "../img/Fomopot_Stickers.gif";
 
 
 function Homecenter(props) {
-  
-    const [copyText, setCopyText] = useState("Copy");
-  
-    // const handleCopyText = () => {
-    //    setCopyText("0x000000000000000000");
-    // } 
-    
-    const copyToClipboard = () => {
-       copy("0x8d5cf97ff6a29e57cb5f4c9e85bbfc7934aa9073");
-       setCopyText("Copied");
-       setTimeout(()=>{
-        setCopyText("Copy");
-
-       },1000)
-       
-      // alert(`You have copied 0x000000000000000000`);
-    }
+ 
 
   return (
     <div  className="container-fluid text-center">
@@ -38,7 +22,7 @@ function Homecenter(props) {
         </h5>
         <img className="fomosticker mb-4" src={gifimg} />
 
-        <div className="row mt-5 align-items-center">
+        {/* <div className="row mt-5 align-items-center">
           <div className="col-sm-12 col-xl-4">
             <h5
               className="text-white"
@@ -73,7 +57,7 @@ function Homecenter(props) {
               {copyText}
             </button>
           </div>
-        </div>
+        </div> */}
 
         <div className="row mt-5 ">
           <div className="col-xl-6 mb-3 mb-sm-3 ms-auto me-auto">

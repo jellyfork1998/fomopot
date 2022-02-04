@@ -1,7 +1,8 @@
-import React from 'react'
+import React, {useState} from 'react'
 import '../css/Tokenomicscss.css'
 import tokenheadpng from "../img/tokenomics.png"
 import tobeannounce from "../img/tobeannounced.png"
+import copy from "copy-to-clipboard"; 
 
 
 function Tokenomics(){
@@ -15,6 +16,30 @@ function Tokenomics(){
      borderWidth: "5px"
      
   }
+
+ 
+  const [copyText, setCopyText] = useState("Copy");
+  
+  // const handleCopyText = () => {
+  //    setCopyText("0x000000000000000000");
+  // } 
+  
+  const copyToClipboard = () => {
+     copy("0x8d5cf97ff6a29e57cb5f4c9e85bbfc7934aa9073");
+     setCopyText("Copied");
+     setTimeout(()=>{
+      setCopyText("Copy");
+
+     },1000)
+     
+    // alert(`You have copied 0x000000000000000000`);
+  }
+
+
+
+
+
+
     return (
      
   <div className="container-fluid" style={{marginLeft:"auto",marginRight:"auto"}}>
@@ -57,9 +82,57 @@ function Tokenomics(){
       
       </div>
         </div>
+
+
     </div>
+
+ <div className='d-flex flex-wrap justify-content-center my-3 align-items-center'>
+  
+          <div className='mx-2 contaddmarg'>
+            <h5
+              className="text-white"
+              style={{ marginTop: "auto", marginBottom: "auto" }}
+            >
+              Contract Address
+            </h5>
+          </div>
+          <div className='mx-2 '>
+            <a type="button" id="contractadd" className="text-white  btn btn-outline-warning  cadd">
+            0x8d5cf97ff6a29e57cb5f4c9e85bbfc7934aa9073
+            </a>
+          </div>
+
+          <div className='mx-2'>
+            <button
+              id="copy"
+              className="marg"
+              style={{
+                backgroundColor: "#F9BF0E",
+                width: "auto",
+                marginRight:'auto',
+                marginBottom: "auto",
+                textDecoration: "none", fontSize: "1.5em",
+                borderRadius:"10px",
+                color:"white"
+                
+              }}
+              onClick={copyToClipboard }
+             
+            >
+              {copyText}
+            </button>
+          </div>
+      
+
+</div>
   </div>
- 
+
+
+
+     
+
+
+
  </div>
   </div>
  

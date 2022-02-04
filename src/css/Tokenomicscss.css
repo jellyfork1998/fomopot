@@ -26,6 +26,9 @@
     .cardsize {
         width:90%;
     }
+    .contaddmarg{
+        margin-bottom: 25px;
+    }
 
 }
 @media (min-width: 576px) { 
@@ -38,6 +41,9 @@
    
     .cardsize {
         width:90%;
+    }
+    .contaddmarg {
+        margin-bottom: 25px;
     }
 
 }
@@ -70,6 +76,9 @@
     .cardsize {
         width:95%;
     }
+    .contaddmarg {
+        margin-bottom: 0px;
+    }
 }
 
 @media (min-width: 992px) { 
@@ -97,6 +106,9 @@
     }
     .cardsize {
         width:95%;
+    }
+    .contaddmarg {
+        margin-bottom: 0px;
     }
 
 }
@@ -129,6 +141,9 @@
     .cardsize {
         width:75%;
     }
+    .contaddmarg {
+        margin-bottom: 0px;
+    }
 }
 
 @media (min-width: 1400px) { 
@@ -154,6 +169,9 @@
     }
     .cardsize {
         width:75%;
+    }
+    .contaddmarg {
+        margin-bottom: 0px;
     }
 }
 
